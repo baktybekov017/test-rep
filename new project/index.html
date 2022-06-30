@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="back" >
+    <h1> Регистрация</h1>
+    <form name="signup" action="#" method="post">
+        <div>
+            <label>введите логин:</label>
+            <input type="text" name="username"/>
+        </div>
+        <div>
+            <label>введите E-mail:</label>
+            <input type="email" name="email"/>
+        </div>
+        <div>
+            <label>введите пароль:</label>
+            <input type="password" name="password"/>
+        </div>
+        <div>
+            <label >Укажите пол</label>
+            <input type="radio" name="sex" value="0"/>Мужской
+            <input type="radio" name="sex" value="1"/>Женский
+        </div>
+        <div>
+        <label>Я ознакомлен с правилами:</label>
+        <input type="checkbox" name="rules"/>
+        </div>
+        <div>
+            <label>загрузите фото</label>
+            <input type="file" name="avatar">
+        </div>
+        <div>
+            <label>Год рождения:</label>
+            <select name="year">
+                <option value='2000'>2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+            </select> 
+        </div>
+        <div>
+           <textarea> Введите текст</textarea> 
+        </div>
+        <input type='submit' name="signup" value="Зарегистрироваться"/>
+    </form>
+    </div>
+    <img src="background.jpg" alt="">
+
+</body>
+</html>
